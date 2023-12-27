@@ -24,12 +24,6 @@ from src.utils.face_enhancer import enhancer_generator_with_len, enhancer_list
 from src.utils.paste_pic import paste_pic
 from src.utils.videoio import save_video_with_watermark
 
-try:
-    import webui  # in webui
-    in_webui = True
-except:
-    in_webui = False
-
 class AnimateFromCoeff():
 
     def __init__(self, sadtalker_path, device):
