@@ -4,7 +4,7 @@ from src.gradio_demo import SadTalker
 
 
 try:
-    import webui  # in webui
+    import modules.shared  # in webui
     in_webui = True
 except:
     in_webui = False
